@@ -2,13 +2,20 @@
 
 Complete a C scheduler that assigns tasks to workers, handles scheduling signals, and lets tasks wait for other tasks' results. The assignment is worth **7 points**.
 
-## Latest specification
+## Latest assignment specification
 
 [HW3 Specification on HackMD](https://hackmd.io/@ntusp2026/rknGDsZJmx)
 
 The specification covers scheduling rules, input and output formats, and grading.
 
-## Build and run
+| Part | Work | Points |
+| --- | --- | ---: |
+| 1 | Task and worker setup, scheduling, SIGALRM, and task completion | 2 |
+| 2 | Factorial and Find Nth Prime | 1 |
+| 3 | Adder and task dependencies with `worker_join()` | 2 |
+| 4 | SIGTSTP and priority queues | 2 |
+
+## Build and develop
 
 Use the course Linux environment with GCC, make, and Bash.
 
@@ -21,15 +28,14 @@ make
 
 Complete the TODOs before running the corresponding samples. The checker compares stdout with `test/expect<N>.txt`.
 
-## Implementation
-
-| Part | Work | Points |
-| --- | --- | ---: |
-| 1 | Task and worker setup, scheduling, SIGALRM, and task completion | 2 |
-| 2 | Factorial and Find Nth Prime | 1 |
-| 3 | Adder and task dependencies with `worker_join()` | 2 |
-| 4 | SIGTSTP and priority queues | 2 |
+## Provided versus student work
 
 Fibonacci is provided. Complete the TODOs in `scheduler.c`, `threadtools.h`, and `threads.c`. Keep the supplied `main.c`, `queue.c`, `queue.h`, and `Makefile` unchanged.
 
-See the HW3 announcement on NTU COOL for the deadline and submission instructions.
+## Submission
+
+Submit `<student_id>_hw3.zip` on NTU COOL. See the HW3 announcement for the deadline, late policy, and required files.
+
+## Questions and updates
+
+Check the HackMD specification and existing [GitHub Issues](https://github.com/ntusp2026/SP2026_HW3_release/issues) before opening a new issue. Include the error and what you tried.
