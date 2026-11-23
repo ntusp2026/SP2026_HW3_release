@@ -1,0 +1,21 @@
+Worker 0 created
+Worker 1 created
+Task 0 created
+Task 1 created
+Task 2 created
+[Worker 0]Task 0 (Prime): Found #1 -> 2
+Caught SIGALRM
+[Worker 1]Task 1 (Prime): Found #1 -> 2
+Caught SIGTSTP
+[Worker 0]Task 0 (Prime): Found #2 -> 3
+Caught SIGALRM
+[Worker 1]Task 2 (Prime): Found #1 -> 2
+Caught SIGTSTP
+[Worker 0]Task 0 (Prime): Found #3 -> 5
+[Worker 1]Task 1 (Prime): Found #2 -> 3
+Caught SIGALRM
+[Worker 0]Task 2 (Prime): Found #2 -> 3
+[Worker 1]Task 1 (Prime): Found #3 -> 5
+Caught SIGALRM
+[Worker 1]Task 1 (Prime): Found #4 -> 7
+All tasks have completed. Exiting program.

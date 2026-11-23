@@ -1,0 +1,22 @@
+Worker 0 created
+Worker 1 created
+Task 0 created
+Task 1 created
+Task 2 created
+[Worker 0]Task 0 (Fibonacci): f(1) = 1
+[Worker 0]Task 0 (Fibonacci): f(2) = 1
+Caught SIGALRM
+[Worker 1]Task 1 (Factorial): 1! = 1
+Caught SIGTSTP
+[Worker 0]Task 0 (Fibonacci): f(3) = 2
+Caught SIGALRM
+[Worker 1]Task 2 (Prime): Found #1 -> 2
+[Worker 1]Task 2 (Prime): Found #2 -> 3
+Caught SIGALRM
+[Worker 0]Task 0 (Fibonacci): f(4) = 3
+[Worker 1]Task 2 (Prime): Found #3 -> 5
+[Worker 0]Task 1 (Factorial): 2! = 2
+Caught SIGALRM
+[Worker 0]Task 1 (Factorial): 3! = 6
+[Worker 0]Task 1 (Factorial): 4! = 24
+All tasks have completed. Exiting program.

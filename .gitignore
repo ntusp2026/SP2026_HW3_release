@@ -1,0 +1,4 @@
+/main
+/main.dSYM/
+/test/out*.txt
+.DS_Store

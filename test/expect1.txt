@@ -1,0 +1,13 @@
+Worker 0 created
+Task 0 created
+Task 1 created
+[Worker 0]Task 0 (Fibonacci): f(1) = 1
+[Worker 0]Task 0 (Fibonacci): f(2) = 1
+[Worker 0]Task 0 (Fibonacci): f(3) = 2
+[Worker 0]Task 0 (Fibonacci): f(4) = 3
+[Worker 0]Task 0 (Fibonacci): f(5) = 5
+[Worker 0]Task 0 (Fibonacci): f(6) = 8
+[Worker 0]Task 1 (Fibonacci): f(1) = 1
+[Worker 0]Task 1 (Fibonacci): f(2) = 1
+[Worker 0]Task 1 (Fibonacci): f(3) = 2
+All tasks have completed. Exiting program.

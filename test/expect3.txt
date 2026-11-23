@@ -1,0 +1,16 @@
+Worker 0 created
+Worker 1 created
+Task 0 created
+Task 1 created
+Task 2 created
+[Worker 0]Task 0 (Adder): Waiting for target#1 value...
+[Worker 1]Task 1 (Fibonacci): f(1) = 1
+[Worker 1]Task 1 (Fibonacci): f(2) = 1
+[Worker 1]Task 1 (Fibonacci): f(3) = 2
+[Worker 0]Task 2 (Factorial): 1! = 1
+Caught SIGALRM
+[Worker 1]Task 0 (Adder): Waiting for target#2 value...
+[Worker 0]Task 2 (Factorial): 2! = 2
+[Worker 0]Task 2 (Factorial): 3! = 6
+[Worker 0]Task 0 (Adder): target#1 + target#2 = 8
+All tasks have completed. Exiting program.

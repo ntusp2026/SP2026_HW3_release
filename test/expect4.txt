@@ -1,0 +1,27 @@
+Worker 0 created
+Worker 1 created
+Task 0 created
+Task 1 created
+Task 2 created
+Task 3 created
+Task 4 created
+Task 5 created
+[Worker 0]Task 0 (Adder): Waiting for target#1 value...
+[Worker 1]Task 1 (Adder): Waiting for target#3 value...
+[Worker 0]Task 2 (Fibonacci): f(1) = 1
+[Worker 0]Task 2 (Fibonacci): f(2) = 1
+[Worker 1]Task 3 (Factorial): 1! = 1
+[Worker 1]Task 3 (Factorial): 2! = 2
+Caught SIGTSTP
+[Worker 0]Task 4 (Prime): Found #1 -> 2
+Caught SIGTSTP
+[Worker 1]Task 5 (Fibonacci): f(1) = 1
+[Worker 1]Task 5 (Fibonacci): f(2) = 1
+[Worker 1]Task 5 (Fibonacci): f(3) = 2
+[Worker 0]Task 3 (Factorial): 3! = 6
+[Worker 1]Task 4 (Prime): Found #2 -> 3
+[Worker 0]Task 1 (Adder): Waiting for target#4 value...
+[Worker 0]Task 1 (Adder): target#3 + target#4 = 9
+[Worker 0]Task 0 (Adder): Waiting for target#2 value...
+[Worker 0]Task 0 (Adder): target#1 + target#2 = 10
+All tasks have completed. Exiting program.
