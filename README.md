@@ -34,7 +34,22 @@ Fibonacci is provided. Complete the TODOs in `scheduler.c`, `threadtools.h`, and
 
 ## Submission
 
-Submit `<student_id>_hw3.zip` on NTU COOL. See the HW3 announcement for the deadline, late policy, and required files.
+Submit `<student_id>_hw3.zip` on NTU COOL. Place the following files directly at the top level of the ZIP:
+
+```text
+b14902xxx_hw3.zip
+├── Makefile
+├── main.c
+├── queue.c
+├── queue.h
+├── scheduler.c
+├── threads.c
+└── threadtools.h
+```
+
+After extraction, `make` must produce `main`. Keep the provided `main.c`, `queue.c`, `queue.h`, and `Makefile` unchanged. Exclude executables, object files, test outputs, the checker, and Git history.
+
+See the HW3 announcement for the deadline and late policy.
 
 ## Questions and updates
 
